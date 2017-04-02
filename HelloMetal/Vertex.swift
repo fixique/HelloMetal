@@ -6,4 +6,11 @@
 //  Copyright © 2017 fixique. All rights reserved.
 //
 
-import Foundation
+struct Vertex {
+    var x, y, z: Float // Position data
+    var r, g, b, a: Float // Color data 
+    
+    func floatBuffer() -> [Float] {
+        return [x,y,z,r,g,b,a]
+    }
+}

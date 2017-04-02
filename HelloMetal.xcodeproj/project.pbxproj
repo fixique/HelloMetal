@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D45FB5C1E8456F500E4D97C /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45FB5B1E8456F500E4D97C /* Sphere.swift */; };
+		4D45FB5E1E8482D200E4D97C /* BufferProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D45FB5D1E8482D200E4D97C /* BufferProvider.swift */; };
 		4DD53FC21E8319FF009F1E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FC11E8319FF009F1E4C /* AppDelegate.swift */; };
 		4DD53FC41E8319FF009F1E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FC31E8319FF009F1E4C /* ViewController.swift */; };
 		4DD53FC71E8319FF009F1E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD53FC51E8319FF009F1E4C /* Main.storyboard */; };
 		4DD53FC91E8319FF009F1E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD53FC81E8319FF009F1E4C /* Assets.xcassets */; };
 		4DD53FCC1E8319FF009F1E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD53FCA1E8319FF009F1E4C /* LaunchScreen.storyboard */; };
+		4DD53FD41E831F6B009F1E4C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FD31E831F6B009F1E4C /* Shaders.metal */; };
+		4DD53FD81E8329E3009F1E4C /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FD71E8329E3009F1E4C /* Matrix4.m */; };
+		4DD53FDA1E832A9F009F1E4C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FD91E832A9F009F1E4C /* Vertex.swift */; };
+		4DD53FDC1E832B2D009F1E4C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FDB1E832B2D009F1E4C /* Node.swift */; };
+		4DD53FDE1E832DE2009F1E4C /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FDD1E832DE2009F1E4C /* Triangle.swift */; };
+		4DD53FE01E8331D7009F1E4C /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD53FDF1E8331D7009F1E4C /* Cube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D45FB5B1E8456F500E4D97C /* Sphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		4D45FB5D1E8482D200E4D97C /* BufferProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferProvider.swift; sourceTree = "<group>"; };
 		4DD53FBE1E8319FE009F1E4C /* HelloMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD53FC11E8319FF009F1E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DD53FC31E8319FF009F1E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		4DD53FC81E8319FF009F1E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD53FCB1E8319FF009F1E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD53FCD1E8319FF009F1E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD53FD31E831F6B009F1E4C /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		4DD53FD51E8329E3009F1E4C /* HelloMetal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMetal-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DD53FD61E8329E3009F1E4C /* Matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4.h; sourceTree = "<group>"; };
+		4DD53FD71E8329E3009F1E4C /* Matrix4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix4.m; sourceTree = "<group>"; };
+		4DD53FD91E832A9F009F1E4C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		4DD53FDB1E832B2D009F1E4C /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		4DD53FDD1E832DE2009F1E4C /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		4DD53FDF1E8331D7009F1E4C /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +74,20 @@
 			children = (
 				4DD53FC11E8319FF009F1E4C /* AppDelegate.swift */,
 				4DD53FC31E8319FF009F1E4C /* ViewController.swift */,
+				4DD53FD31E831F6B009F1E4C /* Shaders.metal */,
+				4DD53FD91E832A9F009F1E4C /* Vertex.swift */,
+				4DD53FDB1E832B2D009F1E4C /* Node.swift */,
+				4DD53FDD1E832DE2009F1E4C /* Triangle.swift */,
+				4DD53FDF1E8331D7009F1E4C /* Cube.swift */,
+				4D45FB5B1E8456F500E4D97C /* Sphere.swift */,
+				4D45FB5D1E8482D200E4D97C /* BufferProvider.swift */,
+				4DD53FD61E8329E3009F1E4C /* Matrix4.h */,
+				4DD53FD71E8329E3009F1E4C /* Matrix4.m */,
 				4DD53FC51E8319FF009F1E4C /* Main.storyboard */,
 				4DD53FC81E8319FF009F1E4C /* Assets.xcassets */,
 				4DD53FCA1E8319FF009F1E4C /* LaunchScreen.storyboard */,
 				4DD53FCD1E8319FF009F1E4C /* Info.plist */,
+				4DD53FD51E8329E3009F1E4C /* HelloMetal-Bridging-Header.h */,
 			);
 			path = HelloMetal;
 			sourceTree = "<group>";
@@ -97,6 +125,7 @@
 					4DD53FBD1E8319FE009F1E4C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = JE6A9LTMD3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D45FB5E1E8482D200E4D97C /* BufferProvider.swift in Sources */,
+				4DD53FD41E831F6B009F1E4C /* Shaders.metal in Sources */,
+				4DD53FD81E8329E3009F1E4C /* Matrix4.m in Sources */,
+				4D45FB5C1E8456F500E4D97C /* Sphere.swift in Sources */,
 				4DD53FC41E8319FF009F1E4C /* ViewController.swift in Sources */,
+				4DD53FDC1E832B2D009F1E4C /* Node.swift in Sources */,
+				4DD53FE01E8331D7009F1E4C /* Cube.swift in Sources */,
+				4DD53FDA1E832A9F009F1E4C /* Vertex.swift in Sources */,
+				4DD53FDE1E832DE2009F1E4C /* Triangle.swift in Sources */,
 				4DD53FC21E8319FF009F1E4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,11 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JE6A9LTMD3;
 				INFOPLIST_FILE = HelloMetal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.HelloMetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloMetal/HelloMetal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JE6A9LTMD3;
 				INFOPLIST_FILE = HelloMetal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fixique.HelloMetal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloMetal/HelloMetal-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +344,7 @@
 				4DD53FD21E8319FF009F1E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
